@@ -122,3 +122,5 @@
 {"message":"::1 - - [29/Aug/2019:11:55:09 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
 {"message":"/api/v1/issue-confirmation-ticket","level":"info"}
 {"message":"::1 - - [29/Aug/2019:11:56:12 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::1 - - [29/Aug/2019:13:02:08 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}

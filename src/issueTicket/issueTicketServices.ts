@@ -2,7 +2,6 @@ import axios from 'axios'
 const Email = require('email-templates')
 import logger from '../config/winston'
 import {format, parseISO} from 'date-fns'
-const base64ToS3 = require('nodemailer-base64-to-s3')
 import createSendGridTransporter from '../utils/createSendGridTransporter'
 
 
