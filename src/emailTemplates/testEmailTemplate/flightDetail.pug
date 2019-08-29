@@ -1,0 +1,30 @@
+div(class='flightCardContainer')
+	div(class='flightInfoContainer')
+			div(class='flightInfo')
+
+				div(class='flightDepartureArrivalContainer')
+					div(class='airlineInfo')
+						img(class='airlineLogo')
+						div(class='airlineName') #{flightDetail["carrierID"]}
+					
+					div(class='departureArrivalInfo')
+						div(class='airportName') #{flightDetail["origin"]}
+						div(class='departureArrivalTime')
+							include clockLogo.pug
+							div #{`${flightDetail.departureDateTime}`}
+
+					div(class='journeyContainer')
+						div(class='airplaneLogo')
+							include littlePlane.pug 
+						div(class='journeySeparatorContainer')
+							div(class='duration') #{`${ Math.floor(Number(flightDetail.Duration)/60)}:${Number(flightDetail.Duration)%60>=10?Number(flightDetail.Duration)%60:`0${Number(flightDetail.Duration)%60}`}`}
+							div(class='journeySeparator')
+							div(class='noOfStops') #{flightDetail.NoOfStops? `${flightDetail.NoOfStops} Stop${flightDetail.NoOfStops===1?"":"s"}`: "Direct"}
+
+
+					div(class='departureArrivalInfo')
+						div(class='airportName') #{flightDetail.destination}
+							div(class='departureArrivalTime')
+								div(class='departureArrivalTime')
+									include clockLogo.pug
+									div #{flightDetail.arrivalDateTime}

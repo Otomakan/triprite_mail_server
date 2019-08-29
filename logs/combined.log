@@ -1,0 +1,99 @@
+{"message":"/user","level":"info"}
+{"message":"::1 - - [29/Aug/2019:08:17:03 +0000] \"POST /user HTTP/1.1\" 404 144 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:23:38 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:32:08 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 34 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:33:24 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 34 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:34:33 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 34 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:35:54 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 34 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::1 - - [29/Aug/2019:08:36:17 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 19 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::1 - - [29/Aug/2019:08:37:20 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 67 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:37:39 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 67 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:37:41 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 67 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:38:06 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 67 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:38:09 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 67 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"TypeError: Cannot read property '0' of undefined","level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:38:36 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 67 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::1 - - [29/Aug/2019:08:47:04 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 34 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::1 - - [29/Aug/2019:08:48:26 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 34 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::1 - - [29/Aug/2019:08:49:02 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 34 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::1 - - [29/Aug/2019:08:49:10 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 34 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"TypeError: Cannot destructure property `firstName` of 'undefined' or 'null'.","level":"error"}
+{"message":"::1 - - [29/Aug/2019:08:51:03 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 95 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"RangeError: Invalid time value","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [29/Aug/2019:09:02:40 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 49 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"RangeError: Invalid time value","level":"error"}
+{"message":"::1 - - [29/Aug/2019:09:09:26 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 49 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"RangeError: Use `dd` instead of `DD` for formatting days of the month; see: https://git.io/fxCyr","level":"error"}
+{"message":"::1 - - [29/Aug/2019:09:11:43 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 115 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"RangeError: Use `dd` instead of `DD` for formatting days of the month; see: https://git.io/fxCyr","level":"error"}
+{"message":"::1 - - [29/Aug/2019:09:13:01 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 115 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"TypeError: passengerDetails[passengerType].forEach is not a function","level":"error"}
+{"message":"::1 - - [29/Aug/2019:09:13:35 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 87 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"RangeError: Use `yyyy` instead of `YYYY` for formatting years; see: https://git.io/fxCyr","level":"error"}
+{"message":"::1 - - [29/Aug/2019:09:17:05 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 107 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"TypeError: /Users/macuser/Documents/Freelance/TripRite/mailServer/src/emailTemplates/testEmailTemplate/html.pug:156\n    154|                             p(style='line-height: 27px; text-align: center; font-size: 12px; margin: 0;')\n    155|                               span(style='font-size: 18px;')\n  > 156|                                 | Dear #{customer.FirstName}, we are glad you decided to book your flight with us. Please find here all the information relative to your upcoming flight.\n    157|                         //if mso\n    158|                         .button-container(align='center', style='padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;')\n    159|                           //if mso\n\nCannot read property 'FirstName' of undefined","level":"error"}
+{"message":"::1 - - [29/Aug/2019:09:17:43 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 806 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::1 - - [29/Aug/2019:09:27:09 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [29/Aug/2019:09:30:12 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" - - \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [29/Aug/2019:09:33:14 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [29/Aug/2019:09:37:24 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [29/Aug/2019:09:42:33 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [29/Aug/2019:09:45:19 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [29/Aug/2019:09:57:13 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.0\"\n","level":"info"}

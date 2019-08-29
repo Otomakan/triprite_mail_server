@@ -1,0 +1,33 @@
+
+head
+	style
+		include main.css
+div(class='header')
+	div(class='headerLogoSection')
+		img(src='http://www.triprite.com/wp-content/uploads/2018/09/triprite500-2-300x113.png'  class='headerLogo')
+	div(class='emailTitle') Flight Confirmation
+
+
+
+div(class='emailBody')
+	h2 Hi #{customer.FirstName} #{customer.LastName},
+	p We are delighted that you decided to travel with us!
+
+		
+		h3(class="miniTitle") Flights Details
+			each flightDetail in flightDetails
+				include flightDetail.pug
+		if flightDetails.Return
+			
+				
+	div(class='passengerSection')
+		h3(class="miniTitle") Passengers        
+			each passengerInfo, index in passengerDetails.Adults
+				- var customerType = "Adult"
+				include passengerCard.pug
+			each passengerInfo, index in passengerDetails.Childs
+				- var customerType = "Childs"
+				include passengerCard.pug
+			each passengerInfo, index in passengerDetails.Infants
+				- var customerType = "Infants"
+				include passengerCard.pug

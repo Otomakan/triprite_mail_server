@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+body {
+
+	font-family: "Roboto", sans-serif;
+	border:1px solid black;
+}
+
+
+:root {
+  --dark-grey: rgba(0, 0, 0, 0.65);
+  --grey: rgb(128, 129, 130);
+  --light-grey: #dadce0;
+  --light-brown-grey: #bdada3;
+  --primary-color: rgb(30, 121, 214);
+  --secondary-color:  rgb(255, 48, 101);
+  --thirdly-color: rgb(21, 34, 102);
+  --secondary-green:rgb(80, 208, 137);
+  --primary-green:rgb(28, 187, 99);
+  --light-blue: rgb(79, 176, 237);
+  --primary-orange: rgb(244, 131, 7);
+  position: absolute;
+  --yellow: #FFA400;
+  --white: white;
+  --border-radius:10px;
+  --font-size-extra-small:10px;
+  --font-size-small:12px;
+  --font-size-medium:15px;
+  --font-size-large:18px;
+  --font-size-huge:40px;
+  --input-height:50px;
+  --input-padding:5px;
+  --input-margin:5px;
+  --main-font: "Roboto";
+  --secondary-font: "Open Sans";
+  --third-font: 'Montserrat', sans-serif;
+  --box-shadow-card: 0px 5px 9px 0px rgba(0, 0, 0, 0.13);
+  /* --box-shadow-card:-3.554px 33.814px 122px 0px rgba(121, 63, 4, 0.33); */
+  --box-shadow-button: 0px 5px 9px 0px rgba(0, 0, 0, 0.13);
+  --box-shadow-button-hover:  0px 5px 9px 0px rgba(0, 0, 0, 0.23);
+  --padding-card: 15px;
+}
+
+
+.miniTitle{
+  font-size:20px;
+}
+
+.header{
+	width:100%;
+}
+
+.headerLogoSection{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.headerLogo{
+	height:60px;
+  margin-left: 21px;
+}
+
+.emailTitle{
+	text-align: center;
+	font-size: var(--font-size-large);
+	text-transform: uppercase;
+	font-size: 30px;
+	padding:40px;    
+	background: var(--secondary-color);
+    color: white;
+}
+
+.emailBody{
+	padding:20px;
+}
+.flightCardContainer {
+  /* height:a; */
+  padding: var(--padding-card);
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  box-shadow: var(--box-shadow-card);
+}
+@media screen and (max-width: 750px) {
+  .flightCardContainer {
+    margin: 10px 0;
+  }
+  .passengerCard{
+    margin:10px 0;
+  }
+}
+
+.flightInfoContainer {
+  width: 80%;
+}
+@media screen and (max-width: 650px) {
+  .flightInfoContainer {
+    width: 100%;
+  }
+}
+
+.flightInfo {
+  width: 100%;
+  margin: 0;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+}
+
+.airlineInfo {
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.airlineInfo .airlineLogo {
+  height: 30px;
+}
+.airlineInfo .airlineName {
+  font-size: var(--font-size-small);
+  color: var(--grey);
+}
+
+.flightDepartureArrivalContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1000px) {
+  .flightDepartureArrivalContainer {
+    width: 80%;
+  }
+}
+.flightDepartureArrivalContainer .departureArrivalInfo .airportName {
+  font-size: 26px;
+  font-family: var(--third-font);
+  color: var(--thirdly-color);
+  font-weight: 500;
+}
+.flightDepartureArrivalContainer .departureArrivalInfo .departureArrivalTime {
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+  font-size: 12px;
+}
+.flightDepartureArrivalContainer .departureArrivalInfo .departureArrivalTime .clockLogo {
+  height: 12px;
+  width: 12px;
+  -webkit-text-stroke-color: var(--grey);
+  fill: var(--grey);
+  margin-right: 2px;
+}
+.flightDepartureArrivalContainer .journeyContainer {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  font-size: var(--font-size-small);
+}
+.flightDepartureArrivalContainer .journeyContainer .airplaneLogo {
+  height: 25px;
+  width: 25px;
+  background: white;
+  border-radius: 300px;
+  box-shadow: 2cm;
+}
+.flightDepartureArrivalContainer .journeyContainer .journeySeparatorContainer {
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.flightDepartureArrivalContainer .journeyContainer .journeySeparatorContainer .journeySeparator {
+  width: 100%;
+  height: 2px;
+  background-image: -moz-linear-gradient(180deg, #b306a4 0%, #ff911b 100%);
+  background-image: -webkit-linear-gradient(180deg, #b306a4 0%, #ff911b 100%);
+  background-image: -ms-linear-gradient(180deg, #b306a4 0%, #ff911b 100%);
+  margin: 2.5px 0;
+}
+.flightDepartureArrivalContainer .journeyContainer .journeySeparatorContainer .journeySeparator:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #b306a4;
+  right: 0;
+  position: absolute;
+  border-radius: 300px;
+  margin-top: -4px;
+}
+
+.extraInfoContainer {
+  margin-left: 50px;
+  width: 30%;
+}
+@media screen and (max-width: 1000px) {
+  .extraInfoContainer {
+    display: none;
+  }
+}
+.extraInfoContainer .extraInfo {
+  display: flex;
+}
+.extraInfoContainer .extraInfo .textAndLogoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.extraInfoContainer .extraInfo .textAndLogoContainer .textAndLogo {
+  display: flex;
+  flex-wrap: no-wrap;
+  align-items: center;
+  width: 100%;
+  color: var(--ternary-color);
+  height: 20px;
+  margin: 4px auto;
+}
+.extraInfoContainer .extraInfo .textAndLogoContainer .textAndLogo .logo {
+  height: 20px;
+  width: 20px;
+}
+.extraInfoContainer .extraInfo .textAndLogoContainer .textAndLogo .text {
+  margin: 0 10px;
+}
+.extraInfoContainer .extraInfo .checkBoxesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.extraInfoContainer .extraInfo .checkBoxesContainer .checkBox {
+  height: 20px;
+}
+
+.priceContainer {
+  width: 19%;
+  margin: 0;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 650px) {
+  .priceContainer {
+    width: 100%;
+  }
+}
+.priceContainer .price {
+  font-size: 20px;
+  font-family: var(--third-font);
+  color: var(--thirdly-color);
+  font-weight: 600;
+}
+
+.passengerSection{
+  
+}
+.passengerCardContainer{
+  padding: var(--padding-card);
+  margin: 15px 0;
+  /*display: flex;
+  flex-wrap: wrap;*/
+  background: white;
+  box-shadow: var(--box-shadow-card);
+}
+.passengerCard{
+  width: 100%;
+  margin: 0;
+  /*height: 100px;*/
+  overflow: hidden;
+  /*display: flex;*/
+}
+.passengerTitle{
+  font-size:20px;
+  margin: 0 51px;
+}
+.passengerCardContent{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 51px;
+  justify-content: space-between;
+}
+.passengerInformationContainer{
+      margin: 12px 0;
+    /*border-bottom: 1px solid var(--yellow);*/
+    padding-bottom: 2px;
+}
+.passengerInformation{
+    margin: 4px 0;
+    font-size: 20px;
+    /*text-transform: uppercase;*/
+}
+.informationType{
+      text-transform: uppercase;
+    color: var(--secondary-color);
+    font-size: 12px;
+}
+
+}

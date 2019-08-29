@@ -1,0 +1,4 @@
+[] Store the paypal info
+[] Think about how to reduce data transfers
+[] Setup S3 aws for transfer of images jsonTransport nodemailer
+
