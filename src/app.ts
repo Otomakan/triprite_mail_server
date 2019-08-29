@@ -50,6 +50,7 @@ app.use(morgan('combined', { stream: logger.stream }))
 
 // parse application/json
 app.use(bodyParser.json())
+
 const issueController =  new IssueController()
 app.post('/api/v1/issue-confirmation-ticket',issueController.issueTicket)
 
