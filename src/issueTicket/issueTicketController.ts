@@ -42,11 +42,17 @@ class IssueTicketController {
         
         try{
             await services.sendConfirmationEmail(reservationDetails,passengerDetails, flightDetails)
-            return res.status(200)
+            console.log("SUCCESS")
+            return res.status(200).send({message:"email sent"})
         }
         catch(e){
             logger.error(e.toString())
-            services.notifyIssueErrorToAdmin(reservationDetails.orderID, {reservationDetails, passengerDetails, flightDetails}, e.toString())
+            try{
+                services.notifyIssueErrorToAdmin(reservationDetails.orderID, {reservationDetails, passengerDetails, flightDetails}, e.toString())
+            }
+            catch(e){
+                return res.status(400).json({errorMessage: e.toString()})
+            }
             return res.status(400).json({errorMessage: e.toString()})
         }
     }

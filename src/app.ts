@@ -8,7 +8,7 @@ import  logger  from './config/winston'
 const morgan = require('morgan')
 
 
-import IssueController from './issueTicket/IssueTicketController'
+import IssueController from './issueTicket/issueTicketController'
 
 
 const app = express()

@@ -89,17 +89,19 @@ const sendConfirmationEmail = async (reservationDetails, passengerDetails, fligh
             console.log('yay it worked')
             try {
                 forwardBookingToAdmin({reservationDetails})
+                console.log('passed forward booking')
+                return true
             }
             catch(e){
                 throw e
             }
-            return true
         })
         .catch((e)=>{
             console.log('hmm something went wrong when populating the pug file')
             console.log(e)
             throw e
         });
+        
     }
     catch (e) {
         throw e
@@ -123,10 +125,11 @@ const forwardBookingToAdmin = (bookingInformation) => {
     }
     try{
         transporter.sendMail(email)
+        return true
     }
     catch(e){
-        // logger('forwarding email to admin', e.toString())
-        throw e
+        logger.error('forwarding email to admin', e.toString())
+        return
     }
   }
 const notifyIssueErrorToAdmin = (orderID, bookingInformation, errorMessage) => {
