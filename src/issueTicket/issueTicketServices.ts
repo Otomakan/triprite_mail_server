@@ -17,19 +17,7 @@ const sendConfirmationEmail = async (reservationDetails, passengerDetails, fligh
         
         console.log('before tranporter')
         const transporter = createSendGridTransporter()
-        console.log('got transporter')
-        const base64s3Options = {
-            aws:{
-                accessKeyId:process.env.AWS_TRIPRITE_ACCESSKEYID,
-                secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-                params:{
-                    Bucket: process.env.EMAIL_BUCKET_NAME
-                }
-            }
-        }
-        console.log('got options')
 
-        transporter.use('compile', base64ToS3(base64s3Options))
         
         const email = new Email({
             message: {

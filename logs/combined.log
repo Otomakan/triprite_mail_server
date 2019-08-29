@@ -97,3 +97,14 @@
 {"message":"::ffff:127.0.0.1 - - [29/Aug/2019:09:45:19 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.0\"\n","level":"info"}
 {"message":"/api/v1/issue-confirmation-ticket","level":"info"}
 {"message":"::ffff:127.0.0.1 - - [29/Aug/2019:09:57:13 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"MissingRequiredParameter: Missing required key 'Bucket' in params","level":"error"}
+{"message":"::1 - - [29/Aug/2019:10:18:46 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 84 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"MissingRequiredParameter: Missing required key 'Bucket' in params","level":"error"}
+{"message":"::1 - - [29/Aug/2019:10:23:25 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 84 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"MissingRequiredParameter: Missing required key 'Bucket' in params","level":"error"}
+{"message":"::1 - - [29/Aug/2019:10:26:02 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 84 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
