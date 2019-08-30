@@ -15,11 +15,11 @@ class IssueTicketController {
         return true
     }
 
-    private checkValidBody(reservationDetails, passengerDetails, flightDetails){
-        if(!reservationDetails || !passengerDetails ||!flightDetails){
+    private checkValidBody(targetEmail,reservationDetails, passengerDetails, flightDetails){
+        if(!targetEmail||!reservationDetails || !passengerDetails ||!flightDetails){
             if(reservationDetails.orderID){
                 try{
-                    services.notifyIssueErrorToAdmin(reservationDetails.orderID, {reservationDetails, passengerDetails, flightDetails}, "An Invalid Body request was sent to the server")
+                    services.notifyIssueErrorToAdmin(reservationDetails.orderID, {targetEmail,reservationDetails, passengerDetails, flightDetails}, "An Invalid Body request was sent to the server")
                 }
                 catch(e){
                     logger.error(e.toString())
@@ -34,14 +34,14 @@ class IssueTicketController {
         if(!this.checkApiKey(req))
             return res.status(401).json({errorMessage: "GET OUT OF HERE"})
         
-        const {reservationDetails, passengerDetails, flightDetails} = req.body
+        const {targetEmail, reservationDetails, passengerDetails, flightDetails} = req.body
 
-        if(!this.checkValidBody(reservationDetails, passengerDetails, flightDetails)){
+        if(!this.checkValidBody(targetEmail,reservationDetails, passengerDetails, flightDetails)){
             return res.status(400).json({errorMessage: "Invalid Request"})
         }
         
         try{
-            await services.sendConfirmationEmail(reservationDetails,passengerDetails, flightDetails)
+            await services.sendConfirmationEmail(targetEmail,reservationDetails,passengerDetails, flightDetails)
             console.log("SUCCESS")
             return res.status(200).send({message:"email sent"})
         }

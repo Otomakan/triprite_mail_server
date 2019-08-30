@@ -5,13 +5,13 @@ import {format, parseISO} from 'date-fns'
 import createSendGridTransporter from '../utils/createSendGridTransporter'
 
 
-const sendConfirmationEmail = async (reservationDetails, passengerDetails, flightDetails) => {
+const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDetails, flightDetails) => {
 
     try {
         console.log('in send confimration email')
         const { firstName, lastName } = passengerDetails[0]
         console.log('oh oh')
-        const toEmail = reservationDetails.email
+        const toEmail = targetEmail
         // const PNR = reservationDetails.airlinePNR
         
         console.log('before tranporter')
@@ -58,7 +58,9 @@ const sendConfirmationEmail = async (reservationDetails, passengerDetails, fligh
        console.log('formated flight dates')
         // Make the DOB readable
         passengerDetails.forEach(passenger=>{
-            passenger.dateOfBirth = format(parseISO(passenger.dateOfBirth), 'dd MMMM yyyy')
+            if(passenger.dateOfBirth){
+                passenger.dateOfBirth = format(parseISO(passenger.dateOfBirth), 'dd MMMM yyyy')
+            }
         })
 
         try {
