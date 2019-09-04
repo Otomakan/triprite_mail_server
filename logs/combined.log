@@ -153,3 +153,17 @@
 {"message":"::ffff:127.0.0.1 - - [29/Aug/2019:14:40:45 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
 {"message":"/api/v1/issue-confirmation-ticket","level":"info"}
 {"message":"::ffff:127.0.0.1 - - [30/Aug/2019:01:30:36 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [30/Aug/2019:02:55:06 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [30/Aug/2019:02:56:24 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [30/Aug/2019:02:58:12 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [03/Sep/2019:01:54:20 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [03/Sep/2019:03:01:30 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [04/Sep/2019:05:23:08 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [04/Sep/2019:23:30:26 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}

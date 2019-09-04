@@ -4,12 +4,16 @@ import logger from '../config/winston'
 import {format, parseISO} from 'date-fns'
 import createSendGridTransporter from '../utils/createSendGridTransporter'
 
-
+const capitalize = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1)
+}
 const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDetails, flightDetails) => {
 
     try {
         console.log('in send confimration email')
-        const { firstName, lastName } = passengerDetails[0]
+        let { firstName, lastName } = passengerDetails[0]
+        firstName = capitalize(firstName)
+        lastName= capitalize(lastName)
         console.log('oh oh')
         const toEmail = targetEmail
         // const PNR = reservationDetails.airlinePNR
@@ -61,6 +65,8 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
             if(passenger.dateOfBirth){
                 passenger.dateOfBirth = format(parseISO(passenger.dateOfBirth), 'dd MMMM yyyy')
             }
+            passenger.firstName =  capitalize(passenger.firstName)
+            passenger.lastName= capitalize(passenger.lastName)
         })
 
         try {

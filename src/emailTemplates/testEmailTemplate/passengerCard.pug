@@ -2,16 +2,18 @@ div(class="passengerInfoContainer")
 	
 	div(class="passengerCardContainer")
 		div(class="passengerCard")
-			div(class="passengerTitle") #{`${passengerInfo.title} ${passengerInfo.firstName} ${passengerInfo.lastName}`}
+			div(class="passengerTitle") #{`${passengerInfo.title?passengerInfo.title:""} ${passengerInfo.firstName} ${passengerInfo.lastName}`}
 			div(class="passengerCardContent")
-				div(class="passengerInformationContainer")
-					div(class="informationType") Nationality 
-					div(class="passengerInformation") #{passengerInfo.nationalityCountry} 
+				if passengerInfo.nationalityCountry
+					div(class="passengerInformationContainer")
+						div(class="informationType") Nationality 
+						div(class="passengerInformation") #{passengerInfo.nationalityCountry} 
 				div(class="passengerInformationContainer")
 					div(class="informationType")  Phone Number 
 					div(class="passengerInformation") #{passengerInfo.phoneNumber}
-				div(class="passengerInformationContainer")
-					div(class="informationType")  Date Of Birth 
-					div(class="passengerInformation") #{passengerInfo.dateOfBirth} 
+				if passengerInfo.dateOfBirth
+					div(class="passengerInformationContainer")
+						div(class="informationType")  Date Of Birth 
+						div(class="passengerInformation") #{passengerInfo.dateOfBirth} 
 		
 
