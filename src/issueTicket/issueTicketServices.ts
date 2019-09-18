@@ -8,6 +8,7 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
 
     try {
         const { firstName, lastName } = passengerDetails[0]
+
         const toEmail = targetEmail
 
         const transporter = createSendGridTransporter()
@@ -55,6 +56,8 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
             if(passenger.dateOfBirth){
                 passenger.dateOfBirth = format(parseISO(passenger.dateOfBirth), 'dd MMMM yyyy')
             }
+            passenger.firstName =  capitalize(passenger.firstName)
+            passenger.lastName= capitalize(passenger.lastName)
         })
 
         try {
