@@ -5,7 +5,7 @@ import * as compression from "compression"
 
 
 import  logger  from './config/winston'
-const morgan = require('morgan')
+import * as morgan from 'morgan'
 
 
 import IssueController from './issueTicket/issueTicketController'
@@ -44,6 +44,7 @@ const logError = (err, req, res, next) => {
   logger.error(err)
   next()
 }
+app.use(logError)
 
 app.use(morgan('combined', { stream: logger.stream }))
 

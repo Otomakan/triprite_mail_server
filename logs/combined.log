@@ -153,3 +153,88 @@
 {"message":"::ffff:127.0.0.1 - - [29/Aug/2019:14:40:45 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
 {"message":"/api/v1/issue-confirmation-ticket","level":"info"}
 {"message":"::ffff:127.0.0.1 - - [30/Aug/2019:01:30:36 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [17/Sep/2019:04:30:52 +0000] \"POST /issue-confirmation-ticket HTTP/1.1\" 404 165 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [17/Sep/2019:04:32:46 +0000] \"POST /issue-confirmation-ticket HTTP/1.1\" 404 165 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:05:26 +0000] \"POST /issue-confirmation-ticket HTTP/1.1\" 404 165 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:12:46 +0000] \"POST /issue-confirmation-ticket HTTP/1.1\" 404 165 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:16:37 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:18:46 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:18:58 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:19:05 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:19:18 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:19:50 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:20:36 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:22:42 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:24:02 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:31:21 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:31:22 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:34:49 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:36:41 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:36:49 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:37:07 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 401 34 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:37:26 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:39:47 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:46:29 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:50:48 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\issueTicket/../emailTemplates/testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:03:51:39 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 267 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: The file C:\\emailTemplates\\testEmailTemplate\\images\\4f776c863bd92fe53cd0104cb636dcbb.png was not found!","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:04:04:22 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 133 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: The file C:\\emailTemplates\\testEmailTemplate\\images\\4f776c863bd92fe53cd0104cb636dcbb.png was not found!","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:04:05:42 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 133 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: The file C:\\emailTemplates\\testEmailTemplate\\images\\4f776c863bd92fe53cd0104cb636dcbb.png was not found!","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:04:11:54 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 133 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\emailTemplates\\testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:04:14:02 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 190 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\emailTemplates\\testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:04:16:42 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 190 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"Error: No content was passed for subject, html, text, nor attachments message props. Check that the files for the template \"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\emailTemplates\\testEmailTemplate\" exist.","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:04:17:57 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 235 \"-\" \"axios/0.18.1\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [18/Sep/2019:04:20:36 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.1\"\n","level":"info"}

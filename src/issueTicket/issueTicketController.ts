@@ -10,8 +10,10 @@ class IssueTicketController {
         this.checkValidBody = this.checkValidBody.bind(this)
     }
     private checkApiKey(req:Request){
-        if(req.header('apikey')!== process.env.ISSUE_VERIFICATION_API_KEY)
+        if(req.header('apikey')!== process.env.ISSUE_VERIFICATION_API_KEY){
+            console.log('wrong key babe')
             return false
+        }
         return true
     }
 

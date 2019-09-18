@@ -1,20 +1,15 @@
-import axios from 'axios'
 const Email = require('email-templates')
 import logger from '../config/winston'
 import {format, parseISO} from 'date-fns'
 import createSendGridTransporter from '../utils/createSendGridTransporter'
-
+import { resolve } from 'path'
 
 const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDetails, flightDetails) => {
 
     try {
-        console.log('in send confimration email')
         const { firstName, lastName } = passengerDetails[0]
-        console.log('oh oh')
         const toEmail = targetEmail
-        // const PNR = reservationDetails.airlinePNR
-        
-        console.log('before tranporter')
+
         const transporter = createSendGridTransporter()
 
         
@@ -36,7 +31,7 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
                   // `<link rel="stylesheet" href="style.css" data-inline="data-inline">`
                   // then this assumes that the file `build/style.css` exists
                   //
-                  relativeTo: __dirname+'/../emailTemplates/testEmailTemplate',
+                  relativeTo: resolve(__dirname,'../emailTemplates/testEmailTemplate'),
                   images: true // <--- set this as `true`
                   //
                   // but you might want to change it to something like:
@@ -55,7 +50,6 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
             flightDetail['arrivalDateTime'] = format(parseISO(flightDetail['arrivalDateTime']), 'dd MMMM HH:MM')
             
         })
-       console.log('formated flight dates')
         // Make the DOB readable
         passengerDetails.forEach(passenger=>{
             if(passenger.dateOfBirth){
@@ -65,7 +59,7 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
 
         try {
             content =  {
-                template:__dirname+'/../emailTemplates/testEmailTemplate',
+                template: resolve(__dirname,'../emailTemplates/testEmailTemplate'),
                 message: {
                 to: toEmail
                 },
@@ -80,10 +74,8 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
             }
         }
         catch(e){
-            console.log(e)
             throw e
         }
-        // }
         return await email
         .send(content)
         .then((res)=>{
@@ -105,6 +97,7 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
         
     }
     catch (e) {
+        logger.error('', e)
         throw e
     }
 }
@@ -137,7 +130,6 @@ const notifyIssueErrorToAdmin = (orderID, bookingInformation, errorMessage) => {
     try{
         const adminEmailAddress = process.env.ADMIN_EMAIL_ADDRESS
         const transporter = createSendGridTransporter()
-        console.log(bookingInformation)
         const email = {
             from:'server@triprite.com',
             to: adminEmailAddress,
