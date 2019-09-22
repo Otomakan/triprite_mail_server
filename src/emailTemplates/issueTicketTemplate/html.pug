@@ -1,0 +1,174 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    <!--[if gte mso 7]><xml>
+      <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+  body(style={'font-family': 'Arial'})
+    //- CENTER CONTENT
+    table(width='100%' style={width: '100% !important'} cellspacing='0' cellpadding='0' border='0')
+      tr
+        td &nbsp;
+        //- CONTENT COLUMN
+        td(width=600 style={width: '600 !important'})
+          table#content(width='100%' style={'font-size': '13px', 'background-color': '#FFFFFF', padding: '10px'} cellspacing='0' cellpadding='0' border='0')
+            //- HEADER ROW
+            tr
+              td(align='center' width='100%')
+                table#header(width='96%' cellspacing='0' cellpadding='0' border='0' style={width: '96% !important'})
+                  tr
+                    td &nbsp;
+                    td(align='center' width='180')
+                      table(cellspacing='0' cellpadding='0' border='0')
+                        tr
+                          td(align='center') Flight confirmation number
+                        tr
+                          td(align='center') 
+                            strong(style={color: '#1A4D77'}) #{confirmationNumber}
+                  tr
+                    td(valign="top", style={'vertical-align': 'top'})
+                      img(alt='Test image' src="./images/triprite_logo.png" width='170')
+                    td(align='center')
+                      img(alt='Test image' src="./images/trip_ilustration.png" width='135')
+            //- FLIGHT DETAILS TITLE ROW
+            tr
+              td(align='center' style={color: '#26BADF', 'font-size': '17px'})
+                table(width='94%' cellspacing='0' cellpadding='0' border='0' style={width: '94% !important'})
+                  tr
+                    td(align='left' style={'padding-top': '10px'})
+                      strong Trip Details
+            //- FLIGHT DETAILS ROW
+            tr
+              td(align='center')
+                table(width='92%' cellspacing='0' cellpadding='0' border='0' style={width: '92% !important'})
+                  each flight in flightDetails
+                    tr
+                      td(colspan='3' style={'padding-top': '10px'})
+                        table(width='100%' cellspacing='0' cellpadding='0' border='0' style={width: '100% !important'})
+                          tr
+                            td(style={color: '#1A4D77'}) 
+                              strong #{flight.origin} to #{flight.destination} - #{flight.date}
+                            td(align='right') Flight# #{flight.flightID}
+                    tr
+                      td(style={'padding-right': '12px'})
+                        table(cellspacing='0' cellpadding='0' border='0')
+                          tr
+                            td
+                              img(alt='Test image' src="./images/airline_icon.png" height="26")
+                            td
+                              strong(style={color: '#1A4D77', 'font-size': '30px'}) #{flight.origin}
+                      td(align='center' width='98%')
+                        div(style={'border-bottom': '2px dashed black'})= flight.duration
+                        case flight.noOfStops
+                          when 0
+                            div Non Stop
+                          when 1
+                            div 1 stop
+                          default
+                            div #{flight.noOfStops} stops
+                      td(align='right' style={'padding-left': '12px'})
+                        strong(style={color: '#1A4D77', 'font-size': '30px'})= flight.destination
+                    tr
+                      td(colspan='3')
+                        table(width='100%' cellspacing='0' cellpadding='0' border='0' style={width: '100% !important'})
+                          tr
+                            td(width='50%') #{flight.originAirportCity}
+                            td(align='right' width='50%') #{flight.destinationAirportCity}
+                          tr    
+                            td #{flight.originAirportName}
+                            td(align='right') #{flight.destinationAirportName}
+                  tr
+                    td(colspan=3 style={'padding-top': '15px', 'padding-bottom': '10px'})
+                      table(width='100%' style={color: '#1A4D77'} cellspacing='0' cellpadding='0' border='0')
+                        tr
+                          td(align='left')
+                            table(width='95' cellspacing='0' cellpadding='0' border='0')
+                              tr
+                                td(align='center')
+                                  img(alt='Test image' src="./images/checkin_image.png" width='50')
+                              tr
+                                td(align='center') Check in 24 hours before your flight
+                          td(align='center')
+                            table(width='110' cellspacing='0' cellpadding='0' border='0')
+                              tr
+                                td(align='center')
+                                  img(alt='Test image' src="./images/arrive_image.png" width='50')
+                              tr
+                                td(align='center') Arrive at the airport 2-3 hours before your flight
+                          td(align='right')
+                            table(width='95' cellspacing='0' cellpadding='0' border='0')
+                              tr
+                                td(align='center')
+                                  img(alt='Test image' src="./images/trip_image.png" width='50')
+                              tr
+                                td(align='center') Hop on the plane and enjoy your trip
+            //- BILLING ICON
+            tr
+              td(align='center' style={padding: '8px'})
+                img(alt='Test image' src="./images/billing_image.png" width='40')
+            //- BILLING ROW
+            tr
+              td(align='center')
+                table(width='98%' cellspacing='0' cellpadding='0' border='0' style={width: '98% !important'})
+                  tr(style={'font-size': '15px'})
+                    td(colspan=2 align='left' valign='bottom' style={'border-bottom': '2px solid #999999', 'vertical-align': 'bottom'})
+                      strong Passenger & Billing Details
+                    td(colspan=2 align='right' valign='bottom' style={'border-bottom': '2px solid #999999', 'vertical-align': 'bottom'})
+                      strong Purchase Date: #{reservationDetails.created_at}
+                  tr
+                    td(colspan=2 valign='top' style={color: '#26BADF', 'vertical-align': 'top', 'padding-top': '8px', 'padding-right': '5px'})
+                      strong Base Fare For #{passengerDetails.length} Travelers in USD
+                    td(colspan=2 valign='top' style={color: '#26BADF', 'vertical-align': 'top', 'padding-top': '8px', 'padding-left': '5px'})
+                      strong Taxes and Fees
+              
+                  tr
+                    td(style={'padding-top': '10px', 'padding-bottom': '10px'})
+                      strong Subtotal
+                    td(align='right' style={'padding-top': '10px', 'padding-bottom': '10px', 'padding-right': '5px'})
+                      strong $&nbsp;#{reservationDetails.grossAmount}
+                    td(colspan=2 align='right' style={'padding-top': '10px', 'padding-bottom': '10px'})
+                      strong(style={'white-space': 'pre'}) $&nbsp;#{reservationDetails.grossAmount}
+                  tr
+                    td(colspan=2 align='left' style={color: '#1A4D77', 'border-top': '2px solid #999999'})
+                      strong Total
+                    td(colspan=2 align='right' style={color: '#1A4D77', 'border-top': '2px solid #999999'})
+                      strong(style={'white-space': 'pre'}) $&nbsp;#{reservationDetails.grossAmount}
+            //- FOOTER ROW
+            tr
+              td(align='center' style={'padding-top': '10px'})
+                table(style={'font-size': '11px;'} cellspacing='0' cellpadding='0' border='0')
+                  tr
+                    td(colspan=2 align='center')
+                      table(cellspacing='0' cellpadding='0' border='0')
+                        tr
+                          td(colspan=3 align='center')
+                            img(alt='Test image' src="./images/triprite_logo.png" height='27')
+                        tr
+                          td(align='right')
+                            img(alt='Test image' src="./images/facebook_icon.png" height='16')
+                          td(align='center')
+                            img(alt='Test image' src="./images/twitter_icon.png" height='16')
+                          td(align='left')
+                            img(alt='Test image' src="./images/instagram_icon.png" height='16')
+                  tr(align='center', style={color: '#999999'})
+                    td(colspan=2) © 2019 Triprite, LLC. All Rights Reserved.
+                  tr(style={color: '#999999'})
+                    td
+                      table(cellspacing='0' cellpadding='0' border='0')
+                        tr
+                          td
+                            img(alt='Test image' src="./images/globe_icon.png" height='18')
+                          td
+                            a(href='' style={color: '#999999', 'text-decoration': 'none'}) www.Triprite.com
+                    td(align='right')
+                      table(cellspacing='0' cellpadding='0' border='0')
+                        tr
+                          td
+                            img(alt='Test image' src="./images/phone_icon.png" height='18')
+                          td
+                            a(href='' style={color: '#999999', 'text-decoration': 'none'}) 1-833-TRP-RITE
+        td &nbsp;

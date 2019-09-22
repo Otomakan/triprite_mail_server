@@ -3,16 +3,19 @@ import logger from '../config/winston'
 import {format, parseISO} from 'date-fns'
 import createSendGridTransporter from '../utils/createSendGridTransporter'
 import { resolve } from 'path'
+import {FlightDetails} from '../utils/types'
 
-const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDetails, flightDetails) => {
-
+const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDetails, flightDetails: Array<FlightDetails>) => {
     try {
         const { firstName, lastName } = passengerDetails[0]
         const toEmail = targetEmail
-
+        console.log(flightDetails)
         const transporter = createSendGridTransporter()
 
-        
+        flightDetails.forEach((flight,i)=>{
+            flightDetails[i].noOfStops= flight.NoOfStops
+        })
+        console.log(flightDetails)
         const email = new Email({
             message: {
                 from: 'flights@triprite.com',
@@ -31,7 +34,7 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
                   // `<link rel="stylesheet" href="style.css" data-inline="data-inline">`
                   // then this assumes that the file `build/style.css` exists
                   //
-                  relativeTo: resolve(__dirname,'../emailTemplates/testEmailTemplate'),
+                  relativeTo: resolve(__dirname,'../emailTemplates/issueTicketTemplate'),
                   images: true // <--- set this as `true`
                   //
                   // but you might want to change it to something like:
@@ -59,7 +62,7 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
 
         try {
             content =  {
-                template: resolve(__dirname,'../emailTemplates/testEmailTemplate'),
+                template: resolve(__dirname,'../emailTemplates/issueTicketTemplate'),
                 message: {
                 to: toEmail
                 },
