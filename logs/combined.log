@@ -328,3 +328,11 @@
 {"message":"::ffff:127.0.0.1 - - [01/Oct/2019:01:43:03 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
 {"message":"/api/v1/issue-confirmation-ticket","level":"info"}
 {"message":"::ffff:127.0.0.1 - - [01/Oct/2019:01:46:58 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"code":"PUG:SYNTAX_ERROR","msg":"Syntax Error: Unexpected token","line":129,"column":59,"filename":"C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\emailTemplates\\issueTicketTemplate\\html.pug"}
+{"message":"Error: C:\\WSLHome\\Freelance\\Triprite\\flight_engine\\mailServer\\dist\\emailTemplates\\issueTicketTemplate\\html.pug:129:59\n    127|                       strong Taxes and Fees\n    128|                 \n  > 129|                   each passengerDetail in passengerDetails:\n-------------------------------------------------------------------^\n    130|                     tr\n    131|                       if passengerDetail\n    132|                         td(valign='top' style={'vertical-align': 'top'})\n\nSyntax Error: Unexpected token","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [01/Oct/2019:06:16:01 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 400 567 \"-\" \"axios/0.18.0\"\n","level":"info"}
+{"message":"/api/v1/issue-confirmation-ticket","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [01/Oct/2019:06:17:07 +0000] \"POST /api/v1/issue-confirmation-ticket HTTP/1.1\" 200 24 \"-\" \"axios/0.18.0\"\n","level":"info"}
