@@ -62,14 +62,15 @@ html(lang="en")
                             td
                               strong(style={color: '#1A4D77', 'font-size': '30px'}) #{flight.origin}
                       td(align='center' width='98%')
-                        div(style={'border-bottom': '2px dashed black'})= flight.duration
+                        div(style={'border-bottom': '2px dashed black'}) #{parseInt(flight.duration/60)}h#{flight.duration%60}
                         case flight.noOfStops
                           when 0
                             div Non Stop
                           when 1
                             div 1 stop
                           default
-                            div #{flight.noOfStops} stops
+                            div
+                          
                       td(align='right' style={'padding-left': '12px'})
                         strong(style={color: '#1A4D77', 'font-size': '30px'})= flight.destination
                     tr

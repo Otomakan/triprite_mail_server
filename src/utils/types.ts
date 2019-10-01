@@ -23,7 +23,7 @@
   orgTerminal: string
   destTerminal: string
   carryOnBaggage: string
-  duration: string
+  duration: string | number,
   price: string
   basePrice: string
   noOfStops: number,

@@ -11,9 +11,10 @@ const sendConfirmationEmail = async (targetEmail,reservationDetails, passengerDe
         const toEmail = targetEmail
         console.log(flightDetails)
         const transporter = createSendGridTransporter()
-
+        console.log(reservationDetails.created_at)
+        reservationDetails.created_at = reservationDetails.created_at.match(/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/)[0]
         flightDetails.forEach((flight,i)=>{
-            flightDetails[i].noOfStops= flight.NoOfStops
+            flightDetails[i].noOfStops = flight.NoOfStops
         })
         console.log(flightDetails)
         const email = new Email({
