@@ -46,7 +46,7 @@
     "date-fns": "^2.0.1",
     "dotenv": "^7.0.0",
     "email-templates": "^5.0.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "morgan": "^1.9.1",
     "nodemailer": "^6.0.0",
     "nodemailer-base64-to-s3": "^1.0.0",
